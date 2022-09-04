@@ -1,0 +1,41 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "hola"
+            ],
+            "responses": [
+                "Holaa tanto tiempo!",
+                "Hola gusto de escucharte!",
+                "hola, en que puedo ayudarte?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "agregar_a_lista",
+            "patterns": ["agregar lista", "agregar","agregar a lista","add a list"],
+            "responses": ["¿Que quieres agregar a tu lista?", "ok, dime que quieres agregar", "perfecto, dime los objetos"]
+        },
+        {
+            "tag": "mostrar_lista",
+            "patterns": ["mostrame mi lista", "quisiera ver mi lista", "ver","objetos","ver lista","show my list"],
+            "responses": ["Estos son tus objetos"]
+        },
+        {
+            "tag": "chiste",
+            "patterns": ["cuentame un chiste", "quiero oir un chiste"],
+            "responses": [""]
+        },
+        {
+            "tag": "adios",
+            "patterns": ["adios", "chau", "apagate"],
+            "responses": ["ok, nos vemos luego", "ok, hasta pronto", "me apágo, hasta pronto"]
+        }
+       
+    ]
+}
+
+  
